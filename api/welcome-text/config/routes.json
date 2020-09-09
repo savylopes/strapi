@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/welcome-texts",
+      "handler": "welcome-text.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/welcome-texts/count",
+      "handler": "welcome-text.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/welcome-texts/:id",
+      "handler": "welcome-text.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/welcome-texts",
+      "handler": "welcome-text.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/welcome-texts/:id",
+      "handler": "welcome-text.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/welcome-texts/:id",
+      "handler": "welcome-text.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
